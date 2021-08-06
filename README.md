@@ -93,15 +93,15 @@ Response:
 
 - `GET /code/new` returns the page that allows a user to save new code snippets.
 
-  <img src="/images/new1.png">
+  <img src="/images/new1.PNG">
 
-  <img src="/images/new2.png">
+  <img src="/images/new2.PNG">
 
 - `GET: /code/{id}` returns the page with associated code snippet.
 
-  <img src="/images/id1.png">
+  <img src="/images/id1.PNG">
 
 - `GET /code/latest` returns the page with 10 most recently uploaded unrestricted code snippets.
 
-  <img src="/images/latest1.png">
+  <img src="/images/latest1.PNG">
 
