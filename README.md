@@ -13,9 +13,9 @@ This project is an online content-hosting service where users can store code sni
 
   Returns a JSON object which contains the generated unique id for the uploaded code snippet.
 
-- `GET /api/code/{id}` returns a JSON object which contains the code, the date when it was created, the time left and the views left. If the UUID does not exist or one of the restrictions is triggered, then it returns `404 not found`.
+- `GET /api/code/{id}` returns a JSON object which contains the code, the date when it was created, the time left, and the views left. If the UUID does not exist or one of the restrictions is triggered, then it returns `404 not found`.
 
-- `GET /api/code/latest` returns a JSON array which contains 10 most recently uploaded unrestricted code snippets.
+- `GET /api/code/latest` returns a JSON array that contains 10 most recently uploaded unrestricted code snippets.
 
 Examples:
 
