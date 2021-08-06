@@ -31,8 +31,8 @@ function showRestrictions() {
 
 function addCodeSnippetLink(url) {
     const anchorElement = document.createElement("a");
-    const message = document.createTextNode(url);
-    anchorElement.appendChild(message);
+    const node = document.createTextNode("Your generated link: " + url);
+    anchorElement.appendChild(node);
     anchorElement.setAttribute("href", url);
     document.body.appendChild(anchorElement);
 }
